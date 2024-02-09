@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
-  env:  {
+  env: {
     browser: true,
-    node:    true
+    node: true,
   },
   globals: { NodeJS: true, Timer: true },
   parser: 'vue-eslint-parser',

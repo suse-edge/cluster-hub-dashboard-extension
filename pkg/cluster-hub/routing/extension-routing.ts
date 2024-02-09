@@ -8,52 +8,52 @@ import Hub from '../pages/Hub.vue';
 const routes = [
   // this covers the "custom page"
   {
-    name:      `${ PRODUCT_NAME }-c-cluster-${ CUSTOM_PAGE_NAME }`,
-    path:      `/${ PRODUCT_NAME }/c/:cluster/${ CUSTOM_PAGE_NAME }`,
+    name: `${PRODUCT_NAME}-c-cluster-${CUSTOM_PAGE_NAME}`,
+    path: `/${PRODUCT_NAME}/c/:cluster/${CUSTOM_PAGE_NAME}`,
     component: Hub,
-    meta:      {
+    meta: {
       product: PRODUCT_NAME,
-      cluster: BLANK_CLUSTER
+      cluster: BLANK_CLUSTER,
     },
   },
   // the following routes cover the "resource page"
   // registering routes for list/edit/create views
-//   {
-//     name:      `${ PRODUCT_NAME }-c-cluster-resource`,
-//     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource`,
-//     component: ListResource,
-//     meta:      {
-//       product: PRODUCT_NAME,
-//       cluster: BLANK_CLUSTER
-//     },
-//   },
-//   {
-//     name:      `${ PRODUCT_NAME }-c-cluster-resource-create`,
-//     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource/create`,
-//     component: CreateResource,
-//     meta:      {
-//       product: PRODUCT_NAME,
-//       cluster: BLANK_CLUSTER
-//     },
-//   },
-//   {
-//     name:      `${ PRODUCT_NAME }-c-cluster-resource-id`,
-//     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource/:id`,
-//     component: ViewResource,
-//     meta:      {
-//       product: PRODUCT_NAME,
-//       cluster: BLANK_CLUSTER
-//     },
-//   },
-//   {
-//     name:      `${ PRODUCT_NAME }-c-cluster-resource-namespace-id`,
-//     path:      `/${ PRODUCT_NAME }/:cluster/:resource/:namespace/:id`,
-//     component: ViewNamespacedResource,
-//     meta:      {
-//       product: PRODUCT_NAME,
-//       cluster: BLANK_CLUSTER
-//     },
-//   }
+  //   {
+  //     name:      `${ PRODUCT_NAME }-c-cluster-resource`,
+  //     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource`,
+  //     component: ListResource,
+  //     meta:      {
+  //       product: PRODUCT_NAME,
+  //       cluster: BLANK_CLUSTER
+  //     },
+  //   },
+  //   {
+  //     name:      `${ PRODUCT_NAME }-c-cluster-resource-create`,
+  //     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource/create`,
+  //     component: CreateResource,
+  //     meta:      {
+  //       product: PRODUCT_NAME,
+  //       cluster: BLANK_CLUSTER
+  //     },
+  //   },
+  //   {
+  //     name:      `${ PRODUCT_NAME }-c-cluster-resource-id`,
+  //     path:      `/${ PRODUCT_NAME }/c/:cluster/:resource/:id`,
+  //     component: ViewResource,
+  //     meta:      {
+  //       product: PRODUCT_NAME,
+  //       cluster: BLANK_CLUSTER
+  //     },
+  //   },
+  //   {
+  //     name:      `${ PRODUCT_NAME }-c-cluster-resource-namespace-id`,
+  //     path:      `/${ PRODUCT_NAME }/:cluster/:resource/:namespace/:id`,
+  //     component: ViewNamespacedResource,
+  //     meta:      {
+  //       product: PRODUCT_NAME,
+  //       cluster: BLANK_CLUSTER
+  //     },
+  //   }
 ];
 
 export default routes;

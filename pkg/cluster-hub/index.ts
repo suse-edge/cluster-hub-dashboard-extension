@@ -3,7 +3,7 @@ import { IPlugin } from '@shell/core/types';
 import extensionRouting from './routing/extension-routing';
 
 // Init the package
-export default function(plugin: IPlugin): void {
+export default function (plugin: IPlugin): void {
   // Auto-import model, detail, edit from the folders
   importTypes(plugin);
 
@@ -11,6 +11,7 @@ export default function(plugin: IPlugin): void {
   plugin.metadata = require('./package.json');
 
   // Load a product
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   plugin.addProduct(require('./config/cluster-hub'));
 
   // Add Vue Routes
