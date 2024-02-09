@@ -11,7 +11,7 @@ export function init($plugin: IPlugin, store: any) {
 
   // registering a top-level product
   product({
-    icon: 'gear',
+    icon: 'dashboard',
     inStore: 'management',
     weight: 100,
     to: {
@@ -44,7 +44,7 @@ export function init($plugin: IPlugin, store: any) {
 
   // creating a custom page
   virtualType({
-    labelKey: 'some.translation.key',
+    labelKey: 'hub.pages.dashboard',
     name: CUSTOM_PAGE_NAME,
     route: {
       name: `${PRODUCT_NAME}-c-cluster-${CUSTOM_PAGE_NAME}`,
