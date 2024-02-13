@@ -1,11 +1,29 @@
 <script>
-export default { name: 'ClusterHub' };
+// import DashboardMetrics from '@shell/components/DashboardMetrics';
+// import metricPoller from '@shell/mixins/metric-poller';
+import DashboardMetrics from './DashboardMetrics';
+
+const CLUSTER_HUB_DASHBOARD_URL =
+  '/api/v1/namespaces/cattle-monitoring-system/services/http:rancher-monitoring-grafana:80/proxy/d/cluster-hub-dashboard/provisioned-cluster-hub-dashboard?orgId=1';
+
+export default {
+  name: 'ClusterHubDashboard',
+  components: { DashboardMetrics },
+  //   mixins: [metricPoller],
+  data() {
+    return {
+      CLUSTER_HUB_DASHBOARD_URL,
+    };
+  },
+};
 </script>
 
 <template>
-  <div>
-    <h1>This is a custom VueJS page. You can render anything you want</h1>
-  </div>
+  <DashboardMetrics
+    :detail-url="CLUSTER_HUB_DASHBOARD_URL"
+    :has-summary-and-detail="false"
+    graph-height="974px"
+  />
 </template>
 
 <style lang="scss" scoped></style>

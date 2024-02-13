@@ -1,4 +1,4 @@
-import { BLANK_CLUSTER, CUSTOM_PAGE_NAME, PRODUCT_NAME } from '../config/constants';
+import { CLUSTER, CUSTOM_PAGE_NAME, PRODUCT_NAME } from '../config/constants';
 import Hub from '../pages/Hub.vue';
 // import ListResource from '@shell/pages/c/_cluster/_product/_resource/index.vue';
 // import CreateResource from '@shell/pages/c/_cluster/_product/_resource/create.vue';
@@ -13,7 +13,7 @@ const routes = [
     component: Hub,
     meta: {
       product: PRODUCT_NAME,
-      cluster: BLANK_CLUSTER,
+      cluster: CLUSTER,
     },
   },
   // the following routes cover the "resource page"
@@ -24,7 +24,7 @@ const routes = [
   //     component: ListResource,
   //     meta:      {
   //       product: PRODUCT_NAME,
-  //       cluster: BLANK_CLUSTER
+  //       cluster: CLUSTER
   //     },
   //   },
   //   {
@@ -33,7 +33,7 @@ const routes = [
   //     component: CreateResource,
   //     meta:      {
   //       product: PRODUCT_NAME,
-  //       cluster: BLANK_CLUSTER
+  //       cluster: CLUSTER
   //     },
   //   },
   //   {
@@ -42,7 +42,7 @@ const routes = [
   //     component: ViewResource,
   //     meta:      {
   //       product: PRODUCT_NAME,
-  //       cluster: BLANK_CLUSTER
+  //       cluster: CLUSTER
   //     },
   //   },
   //   {
@@ -51,7 +51,7 @@ const routes = [
   //     component: ViewNamespacedResource,
   //     meta:      {
   //       product: PRODUCT_NAME,
-  //       cluster: BLANK_CLUSTER
+  //       cluster: CLUSTER
   //     },
   //   }
 ];

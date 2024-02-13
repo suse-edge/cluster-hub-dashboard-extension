@@ -1,5 +1,5 @@
 import { IPlugin } from '@shell/core/types';
-import { BLANK_CLUSTER, CUSTOM_PAGE_NAME, PRODUCT_NAME } from './constants';
+import { CLUSTER, CUSTOM_PAGE_NAME, PRODUCT_NAME } from './constants';
 
 export function init($plugin: IPlugin, store: any) {
   const {
@@ -18,7 +18,7 @@ export function init($plugin: IPlugin, store: any) {
       name: `${PRODUCT_NAME}-c-cluster-${CUSTOM_PAGE_NAME}`,
       params: {
         product: PRODUCT_NAME,
-        cluster: BLANK_CLUSTER,
+        cluster: CLUSTER,
       },
     },
   });
@@ -36,7 +36,7 @@ export function init($plugin: IPlugin, store: any) {
   //       name: `${ YOUR_PRODUCT_NAME }-c-cluster-resource`,
   //       params: {
   //         product: YOUR_PRODUCT_NAME,
-  //         cluster: BLANK_CLUSTER,
+  //         cluster: CLUSTER,
   //         resource: YOUR_K8S_RESOURCE_NAME
   //       }
   //     }
@@ -50,7 +50,7 @@ export function init($plugin: IPlugin, store: any) {
       name: `${PRODUCT_NAME}-c-cluster-${CUSTOM_PAGE_NAME}`,
       params: {
         product: PRODUCT_NAME,
-        cluster: BLANK_CLUSTER,
+        cluster: CLUSTER,
       },
     },
   });
