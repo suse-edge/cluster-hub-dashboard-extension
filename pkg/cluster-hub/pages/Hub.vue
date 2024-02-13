@@ -9,6 +9,7 @@ const CLUSTER_HUB_DASHBOARD_URL =
 export default {
   name: 'ClusterHubDashboard',
   components: { DashboardMetrics },
+  layout: 'plain',
   //   mixins: [metricPoller],
   data() {
     return {
