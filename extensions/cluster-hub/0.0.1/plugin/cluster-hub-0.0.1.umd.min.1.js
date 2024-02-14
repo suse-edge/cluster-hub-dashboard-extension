@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackJsonpcluster_hub_0_0_1"]=("undefined"!==typeof self?self:this)["webpackJsonpcluster_hub_0_0_1"]||[]).push([[1],{"1bb6":function(e,s){const u=[{product:{"cluster-hub":"Cluster Hub"},hub:{pages:{dashboard:"Dashboard"}}}];e.exports=u.length<=1?u[0]:u}}]);
+//# sourceMappingURL=cluster-hub-0.0.1.umd.min.1.js.map
