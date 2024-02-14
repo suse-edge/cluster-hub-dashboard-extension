@@ -1,7 +1,7 @@
 {
   "name": "cluster-hub",
   "description": "cluster-hub plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "rancher": {
     "annotations": {
