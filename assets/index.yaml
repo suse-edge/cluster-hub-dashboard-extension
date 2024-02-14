@@ -11,6 +11,25 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
+    appVersion: 0.0.2
+    created: "2024-02-14T17:13:05.571068577Z"
+    description: cluster-hub plugin
+    digest: 8080ce8a50341ce9782024db8af4ef261a7f94a5328fe2e884cc9161a97ab204
+    name: cluster-hub
+    type: application
+    urls:
+    - assets/cluster-hub/cluster-hub-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.2'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
     appVersion: 0.0.1
     created: "2024-02-14T17:02:03.704282794Z"
     description: cluster-hub plugin
@@ -20,4 +39,4 @@ entries:
     urls:
     - assets/cluster-hub/cluster-hub-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-14T17:02:03.703244849Z"
+generated: "2024-02-14T17:13:05.570750155Z"
