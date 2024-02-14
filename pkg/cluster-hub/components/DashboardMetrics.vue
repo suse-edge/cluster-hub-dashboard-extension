@@ -1,7 +1,8 @@
 <script>
 import { mapGetters } from 'vuex';
 import DashboardOptions from '@shell/components/DashboardOptions';
-import GrafanaDashboard from '@shell/components/GrafanaDashboard';
+// import GrafanaDashboard from '@shell/components/GrafanaDashboard';
+import GrafanaDashboard from './GrafanaDashboard';
 
 export default {
   components: { DashboardOptions, GrafanaDashboard },
