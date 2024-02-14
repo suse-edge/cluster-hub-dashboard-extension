@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-02-14T15:22:39.914188237Z"
+    created: "2024-02-14T17:02:03.704282794Z"
     description: cluster-hub plugin
-    digest: 8249797e5e80fb3d81755d7735b4ec38c2c24c4c3f5f8b4814cdd47fcca2ab7a
+    digest: 454e0319b097bd991351b6147d0a1a8631b8d05214fdb5afd3f5886591cbdb5b
     name: cluster-hub
     type: application
     urls:
     - assets/cluster-hub/cluster-hub-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-14T15:22:39.913846856Z"
+generated: "2024-02-14T17:02:03.703244849Z"
