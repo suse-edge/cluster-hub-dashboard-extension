@@ -7,6 +7,25 @@ entries:
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-02-14T17:27:12.343858931Z"
+    description: cluster-hub plugin
+    digest: c5c88280be0b4ff1a4c9159b6a50e342d24a6a72ff29ce3b2ed580c428a9c65a
+    name: cluster-hub
+    type: application
+    urls:
+    - https://github.com/suse-edge/cluster-hub-dashboard-extension/releases/download/cluster-hub-0.0.3/cluster-hub-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
       catalog.cattle.io/rancher-version: '>= v2.8.2'
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
@@ -39,4 +58,4 @@ entries:
     urls:
     - assets/cluster-hub/cluster-hub-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-14T17:13:35.33990313Z"
+generated: "2024-02-14T17:27:12.344159689Z"
