@@ -1,7 +1,7 @@
 {
   "name": "cluster-hub",
   "description": "cluster-hub plugin",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": false,
   "rancher": {
     "annotations": {
@@ -13,7 +13,7 @@
     "nuxt": "./node_modules/.bin/nuxt"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.18",

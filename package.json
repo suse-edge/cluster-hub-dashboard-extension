@@ -1,6 +1,6 @@
 {
-  "name": "cluster-hub",
-  "version": "0.1.0",
+  "name": "cluster-hub-dashboard-extension",
+  "version": "0.0.1",
   "private": false,
   "engines": {
     "node": ">=16"
