@@ -1,3 +1,5 @@
+product:
+  cluster-hub: Cluster Hub
 hub:
   pages:
     dashboard: Dashboard
